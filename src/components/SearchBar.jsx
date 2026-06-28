@@ -2,7 +2,7 @@ import styled from 'styled-components';
 /* 검색tbx */
 const SearchTbx = styled.input`
   height: 45px;
-  width: 500px;
+  width: 450px;
   border-radius: 30px;
   font-size: 20px;
   padding: 0px 25px;
