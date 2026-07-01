@@ -1,33 +1,15 @@
-import {LargeMenu, SmallMenu} from './MenuBarStyed';
+import {LargeMenu} from './MenuBarStyed';
 const MenuBar = () => {
   return (
     <>
       <div>
         <LargeMenu>
-          <LargeMenu>
-            영화
-            <ul>
-              <li>국내영화</li>
-              <li>해외영화</li>
-            </ul>
-          </LargeMenu>
-          <LargeMenu>
-            순위
-            <ul>
-              <li>인기 많은 순</li>
-              <li>많은 리뷰순</li>
-            </ul>
-          </LargeMenu>
-          <LargeMenu>최신</LargeMenu>
-          <LargeMenu>방영중</LargeMenu>
-          <LargeMenu>개봉 예정</LargeMenu>
-          <LargeMenu>
-            연령
-            <ul>
-              <li>어린이</li>
-              <li>성인</li>
-            </ul>
-          </LargeMenu>
+          <li>영화</li>
+          <li>순위</li>
+          <li>최신</li>
+          <li>방영중</li>
+          <li>개봉 예정</li>
+          <li>고객센터</li>
         </LargeMenu>
       </div>
     </>

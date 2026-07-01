@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+export const FieldsetSets = styled.fieldset`
+  text-align: center;
+  margin: 0 auto;
+`;
+
 export const SearchTbx = styled.input`
   padding: 0px 25px 0px 25px;
   font-weight: bold;
@@ -8,6 +13,7 @@ export const SearchTbx = styled.input`
   font-size: 20px;
   width: 400px;
   border-radius: 6px;
+  height: 46px;
 `;
 
 export const SearchBtn = styled.button`
